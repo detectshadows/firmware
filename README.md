@@ -22,7 +22,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 -------
 
-
+v90 - dont downlaod the location file form ssdp services multiple times
 v89 - changing format of portscan data array[port => state] and "ssdp/mdns broadcast/ssdp broadcast" ip, mac + location from an array in an array to key=>value json objects 
 v88 - turning ssdp locations and broadcasts back into individual uploads
 v87 - bundling ssdp locations and broadcasts into single uploads
