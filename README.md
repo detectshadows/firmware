@@ -23,7 +23,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
-
+v92 - Bonjour Services Scan rewrite - queries and collects the bnojour / mDNS machine names from the network; MDNS PTR and TXT scan - extracts info from mDNS responses on network via library 
 v91 - NBNS scan - queries and collects the NetBios machine names from the network; MDNS PTR and TXT scan - extracts info from mDNS responses on network
 v90 - dont downlaod the location file form ssdp services multiple times
 v89 - changing format of portscan data array[port => state] and "ssdp/mdns broadcast/ssdp broadcast" ip, mac + location from an array in an array to key=>value json objects 
