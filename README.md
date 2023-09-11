@@ -23,6 +23,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v94 - minor bugfixes against v92
 v93 - minor bugfixes against v92
 v92 - Bonjour Services Scan rewrite - queries and collects the bnojour / mDNS machine names from the network; MDNS PTR and TXT scan - extracts info from mDNS responses on network via library 
 v91 - NBNS scan - queries and collects the NetBios machine names from the network; MDNS PTR and TXT scan - extracts info from mDNS responses on network
