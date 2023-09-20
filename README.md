@@ -23,6 +23,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v97 - change how SSDP scans are uploaded to fix bug
 v96 - minor bugfixes against v92
 v95 - minor bugfixes against v92
 v94 - minor bugfixes against v92
