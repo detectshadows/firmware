@@ -23,6 +23,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v99 - small internal http server to get ip address for requesting machine (for web navgator agent os_version determination)
 v98 - change how SSDP scans are packaged
 v97 - change how SSDP scans are uploaded to fix bug
 v96 - minor bugfixes against v92
