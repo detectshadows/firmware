@@ -23,6 +23,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v101 - always send up gateway_ip address with the scans
 v100 - dynamic company_name in scan_upload function
 v99 - small internal http server to get ip address for requesting machine (for web navgator agent os_version determination)
 v98 - change how SSDP scans are packaged
