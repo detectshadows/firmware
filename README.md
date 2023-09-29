@@ -17,12 +17,13 @@ ssdp_location - on finding location info on ssdp or ssdp_tv scans, fetches the l
 MDNs / Bonjour services scan - searches the network for specific bonjour / mdns services
 NBNS scan - queries and collects the NetBios machine names from the network
 iphone_scan - checks all devices returned by arp_scan for open port 62078
-port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23, 25, 53, 67, 68, 80, 88, 110, 135, 137, 138, 139, 143, 153, 161, 162, 220, 443, 445, 587, 8080, 993, 995, 1080, 1194, 1900, 3306, 62078
-
+sip_scan - checks all devices returned by arp_scan for open ports 5060 and 5061
+port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23, 25, 53, 67, 68, 80, 88, 110, 135, 137, 138, 139, 143, 153, 161, 162, 220, 443, 445, 587, 8080, 993, 995, 1080, 1194, 1900, 3306, 5060, 5061 62078
 
 
 
 -------
+v102 - sip scan
 v101 - always send up gateway_ip address with the scans
 v100 - dynamic company_name in scan_upload function
 v99 - small internal http server to get ip address for requesting machine (for web navgator agent os_version determination)
