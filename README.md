@@ -16,6 +16,8 @@ ssdp_tv_scan - probes for ssdp dial services
 ssdp_location - on finding location info on ssdp or ssdp_tv scans, fetches the location info and parses
 MDNs / Bonjour services scan - searches the network for specific bonjour / mdns services
 NBNS scan - queries and collects the NetBios machine names from the network
+SMB version scan - queries the available SMB versions
+SMB NATIVEOS scan - queries the native_os version on smb services
 iphone_scan - checks all devices returned by arp_scan for open port 62078
 sip_scan - checks all devices returned by arp_scan for open ports 5060 and 5061
 port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23, 25, 53, 67, 68, 80, 88, 110, 135, 137, 138, 139, 143, 153, 161, 162, 220, 443, 445, 587, 8080, 993, 995, 1080, 1194, 1900, 3306, 5060, 5061 62078
@@ -23,6 +25,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v103 - SMB version scan, SMB NativePS scan, NBNS scan fixes
 v102 - sip scan
 v101 - always send up gateway_ip address with the scans
 v100 - dynamic company_name in scan_upload function
