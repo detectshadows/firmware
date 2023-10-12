@@ -25,6 +25,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v104 - SMB version, SMB NativeOS, NBNS fixes
 v103 - SMB version scan, SMB NativePS scan, NBNS scan fixes
 v102 - sip scan
 v101 - always send up gateway_ip address with the scans
