@@ -26,6 +26,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v112 - small bugfix on ssdp upload / overflow if too many scans
 v111 - move to platformio and separate code
 v110 - mac address in every scan
 v109 - SMB2 GSS-API Build number scan!
