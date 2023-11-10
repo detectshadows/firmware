@@ -26,6 +26,8 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v115 - memory optimisations
+v114 - check if its possible to match wifimanager and app themes (** partially - we can add custom css and get a close-enough match)
 v112 - small bugfix on ssdp upload / overflow if too many scans
 v111 - move to platformio and separate code
 v110 - mac address in every scan
