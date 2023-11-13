@@ -26,6 +26,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v117 - dont upload smb scan if empty
 v116 - fixing a panic()
 v115 - memory optimisations
 v114 - check if its possible to match wifimanager and app themes (** partially - we can add custom css and get a close-enough match)
