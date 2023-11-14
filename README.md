@@ -26,6 +26,7 @@ port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23,
 
 
 -------
+v119 - dont upload location response if its zeros
 v118 - dont upload smb scan if empty - alternative
 v117 - dont upload smb scan if empty
 v116 - fixing a panic()
