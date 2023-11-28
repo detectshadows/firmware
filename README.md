@@ -22,10 +22,11 @@ SMB GSS-API build number scan
 iphone_scan - checks all devices returned by arp_scan for open port 62078
 sip_scan - checks all devices returned by arp_scan for open ports 5060 and 5061
 port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23, 25, 53, 67, 68, 80, 88, 110, 135, 137, 138, 139, 143, 153, 161, 162, 220, 443, 445, 587, 8080, 993, 995, 1080, 1194, 1900, 3306, 5060, 5061 62078
+hostname scan [dns over mdns]
 
 
-
--------
+---------------
+v121 - HOSTNAME scan [dns query over mdns]
 v120 - SSDP location scan fix issues
 v119 - dont upload location response if its zeros
 v118 - dont upload smb scan if empty - alternative
