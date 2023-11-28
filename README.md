@@ -26,6 +26,7 @@ hostname scan [dns over mdns]
 
 
 ---------------
+v122 - ARP scan fix issues
 v121 - HOSTNAME scan [dns query over mdns]
 v120 - SSDP location scan fix issues
 v119 - dont upload location response if its zeros
