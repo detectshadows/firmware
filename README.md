@@ -26,6 +26,7 @@ hostname scan [dns over mdns]
 
 
 ---------------
+v124 - dont return on upload error, reset box / clear doc on upload fail
 v123 - dont send blank hostnames
 v122 - ARP scan fix issues
 v121 - HOSTNAME scan [dns query over mdns]
