@@ -9,12 +9,13 @@ scans currently implemented:
 
 subnet size calcualtor - takes the gateway ip and subnet mask, calculates beginning and end ip addresses of network
 arp_scan - sends out an arp query for every ip address in the network, gathers mac addresses (used in all other scans from then on)
-mdns_broadcast - listens for mdns broadcast packets, extrracts PTR and TXT information, periodically uploads to cloud
-ssdp_broadcast - listens for ssdp broadcast packets, periodically uploads to cloud
+mdns_broadcast - [unused] listens for mdns broadcast packets, extrracts PTR and TXT information, periodically uploads to cloud
+ssdp_broadcast - [unused] listens for ssdp broadcast packets, periodically uploads to cloud
 ssdp_scan - probes for ssdp services
 ssdp_tv_scan - probes for ssdp dial services
 ssdp_location - on finding location info on ssdp or ssdp_tv scans, fetches the location info and parses
 MDNs / Bonjour services scan - searches the network for specific bonjour / mdns services
+    http,workstation,smb,ftp,ipp,printer,amzn-alexa,amzn-wplay,spotify-connect,pdl-datastream,googlecast,googlezone,nintendoswitch,matter,visiocast,afpovertcp,airport,appletv,appletv-pair,airplay,companion-link,tivo-remote,device-info,dns-sd,dns-update,domain,honeywell-vid,sip,apple-mobdev2,mediaremotetv,companion-link,raop,sleep-proxy,homekit,touch-able,dns-sd,matterrc
 NBNS scan - queries and collects the NetBios machine names from the network
 SMB version scan - queries the available SMB versions
 SMB NATIVEOS scan - queries the native_os version on smb services
@@ -23,7 +24,7 @@ iphone_scan - checks all devices returned by arp_scan for open port 62078
 sip_scan - checks all devices returned by arp_scan for open ports 5060 and 5061
 port_scan - checks all devices returned by arp_scan for open port 9, 21, 22, 23, 25, 53, 67, 68, 80, 88, 110, 135, 137, 138, 139, 143, 153, 161, 162, 220, 443, 445, 587, 8080, 993, 995, 1080, 1194, 1900, 3306, 5060, 5061 62078
 hostname scan [dns over mdns]
-
+Wifi AP Scan [unused]
 
 ---------------
 v124 - dont return on upload error, reset box / clear doc on upload fail
