@@ -27,6 +27,7 @@ hostname scan [dns over mdns]
 Wifi AP Scan [unused]
 
 ---------------
+v126 - separate ssdp + ssdp TV scans again as its not picking up as much with the combined scan
 v125 - increase buffer for login token as causeing crashes in boxes
 v124 - dont return on upload error, reset box / clear doc on upload fail
 v123 - dont send blank hostnames
