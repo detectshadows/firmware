@@ -27,6 +27,7 @@ hostname scan [dns over mdns]
 Wifi AP Scan [unused]
 
 ---------------
+v200 - separating architecture for the various boards and modifying update procedure
 v127 - fixing crashes, adding support for board with built-in LED
 v126 - separate ssdp + ssdp TV scans again as its not picking up as much with the combined scan
 v125 - increase buffer for login token as causeing crashes in boxes
