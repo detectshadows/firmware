@@ -27,6 +27,7 @@ hostname scan [dns over mdns]
 Wifi AP Scan [unused]
 
 ---------------
+v214 - experiment, get_content
 v212 - experiment, no get_content
 v211 - dont have multiple ssdp scans per loop
 v210 - Upgrade to arduinoJson7 / SW_VER sent in every request
