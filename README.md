@@ -27,6 +27,7 @@ hostname scan [dns over mdns]
 Wifi AP Scan [unused]
 
 ---------------
+v202 - SSDP scan memory increase and rewrite
 v201 - comment out SIP scan for testing
 v200 - separating architecture for the various boards and modifying update procedure
 v127 - fixing crashes, adding support for board with built-in LED
