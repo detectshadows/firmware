@@ -27,6 +27,7 @@ hostname scan [dns over mdns]
 Wifi AP Scan [unused]
 
 ---------------
+v210 - Upgrade to arduinoJson7 / SW_VER sent in every request
 v202 - SSDP scan memory increase and rewrite
 v201 - comment out SIP scan for testing
 v200 - separating architecture for the various boards and modifying update procedure
