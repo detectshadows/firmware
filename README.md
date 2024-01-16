@@ -27,6 +27,7 @@ hostname scan [dns over mdns]
 Wifi AP Scan [unused]
 
 ---------------
+v211 - dont have multiple ssdp scans per loop
 v210 - Upgrade to arduinoJson7 / SW_VER sent in every request
 v202 - SSDP scan memory increase and rewrite
 v201 - comment out SIP scan for testing
