@@ -66,6 +66,7 @@ ____________________________
 
 # changelog
 
+* v217 - experiment, no break in for condition nbns scan
 * v216 - experiment, x.replace()
 * v215 - experiment, get_content on
 * v214 - experiment, get_content
